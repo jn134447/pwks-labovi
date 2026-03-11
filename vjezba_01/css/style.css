@@ -83,7 +83,7 @@ footer {
 .center-text {
   position: absolute;
   width: fit-content;
-  top: 30%;
+  top: 33%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -139,6 +139,7 @@ p {
   display: block;
   text-decoration: none;
   font-size: 2.5rem;
+  padding-top: 2rem;
 }
 
 /* article things */
