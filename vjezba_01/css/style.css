@@ -12,7 +12,6 @@ body {
   grid-template-rows: auto 1fr auto;
 
   background-color: rgb(243, 243, 243);
-
 }
 
 div {
@@ -120,7 +119,8 @@ h2 {
 
 h1,
 h2,
-p {
+p,
+small {
   padding: 0 2rem 0 2rem;
 }
 ul,
@@ -142,9 +142,48 @@ p {
 }
 
 /* articles */
-#articles { 
+/* #articles {
   background-color: #f3e6e6;
+  display: flex;
+  align-items: flex-start;
 }
 #articles hr {
   opacity: 0.2;
+}
+.tumb {
+  width: 100px;
+  height: 100px;
+} */
+/* 
+article {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tumb {
+  width: 150px;
+  flex: 0 0 150px;
+  height: auto;
+}
+
+article > :not(.tumb) {
+  display: block;
+  flex: 1;
+} */
+
+article {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.tumb {
+  width: 150px;
+  flex: 0 0 150px;
+  height: auto;
+  padding: 1rem;
+}
+
+.content {
+  flex: 1;
+  padding-bottom: 2rem;
 }
