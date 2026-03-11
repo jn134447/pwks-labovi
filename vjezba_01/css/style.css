@@ -1,31 +1,19 @@
 html,
 body {
-  margin: 0;
   padding: 0;
-  height: 100%;
+  margin: 0;
 
   font-family: Georgia, serif;
-
-  background-color: whitesmoke;
 }
 
-h1,
-h2 {
-  color: rgb(47, 4, 90);
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
-h1,
-h2,
-p{
-  padding: 0 2rem 0 2rem;
-}
-ul, li, ol {
-    padding: 0;
-    margin: 0 2rem;
-}
-
-p {
-  font-size: 18px;
+div {
+  border: solid 2px red;
 }
 
 nav {
@@ -42,20 +30,44 @@ nav {
 
   z-index: 1;
 }
-nav a {
-  align-content: center;
-  padding-left: 3rem;
-  text-decoration: none;
-  font-size: 23px;
+
+main {
+  background-color: rgb(243, 243, 243);
+}
+
+#two-col {
+  display: flex;
+}
+#one-col {
+  display: block;
+  box-sizing: border-box;
+}
+
+footer {
+  min-height: 100px;
+  width: 100%;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #a59c9a;
   color: whitesmoke;
+  font-size: 1.5rem;
 }
 
-nav a:hover {
-  color: cyan;
+#right,
+#left {
+  width: 50%;
 }
-
-nav a:active {
-  color: greenyellow;
+#right {
+  text-align: center;
+}
+#right img {
+  padding: 1rem 2rem 0 2rem;
+  position: relative;
+  height: 350px;
 }
 
 #header {
@@ -63,8 +75,13 @@ nav a:active {
   height: 36rem;
   /* background-image: ; */
   content: url(../images/header.jpg);
+  margin-top: 5rem;
+}
+#empty {
+  margin-top: 5rem;
 }
 
+/* text things */
 .center-text {
   position: absolute;
   width: fit-content;
@@ -81,20 +98,41 @@ nav a:active {
   font-family: "Source Code Pro", monospace;
 }
 
-main {
-  display: flex;
+nav a {
+  align-content: center;
+  padding-left: 3rem;
+  text-decoration: none;
+  font-size: 23px;
+  color: whitesmoke;
 }
 
-main div {
-  width: 50%;
+nav a:hover {
+  color: cyan;
 }
-#right {
-  text-align: center;
+
+nav a:active {
+  color: greenyellow;
 }
-#right img {
-  padding: 1rem 2rem 0 2rem;
-  position: relative;
-  height: 350px;
+
+h1,
+h2 {
+  color: rgb(47, 4, 90);
+}
+
+h1,
+h2,
+p {
+  padding: 0 2rem 0 2rem;
+}
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0 2rem;
+}
+
+p {
+  font-size: 18px;
 }
 
 #validator {
@@ -102,17 +140,4 @@ main div {
   display: block;
   text-decoration: none;
   font-size: 2.5rem;
-}
-
-footer{
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display:flex;
-
-    background-color: #a59c9a;
-    color: whitesmoke;
-    font-size: 1.5rem;
 }
