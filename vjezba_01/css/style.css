@@ -14,9 +14,9 @@ body {
   background-color: rgb(243, 243, 243);
 }
 
-div {
+/* div {
   border: solid 2px red;
-}
+} */
 
 nav {
   position: fixed;
@@ -141,36 +141,7 @@ p {
   font-size: 2.5rem;
 }
 
-/* articles */
-/* #articles {
-  background-color: #f3e6e6;
-  display: flex;
-  align-items: flex-start;
-}
-#articles hr {
-  opacity: 0.2;
-}
-.tumb {
-  width: 100px;
-  height: 100px;
-} */
-/* 
-article {
-  display: flex;
-  align-items: flex-start;
-}
-
-.tumb {
-  width: 150px;
-  flex: 0 0 150px;
-  height: auto;
-}
-
-article > :not(.tumb) {
-  display: block;
-  flex: 1;
-} */
-
+/* article things */
 article {
   display: flex;
   align-items: flex-start;
@@ -186,4 +157,15 @@ article {
 .content {
   flex: 1;
   padding-bottom: 2rem;
+}
+
+/* table things */
+table {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+table tr:first-child {
+  background-color: #dedede;
 }
