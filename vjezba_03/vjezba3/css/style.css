@@ -1,0 +1,172 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: Georgia, serif;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+
+  background-color: rgb(243, 243, 243);
+}
+
+/* div {
+  border: solid 2px red;
+} */
+
+nav {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+
+  background-color: #a59c9a;
+  color: rgb(245, 239, 238);
+
+  height: 5rem;
+  align-content: center;
+
+  z-index: 1;
+}
+
+#two-col {
+  display: flex;
+}
+#one-col {
+  display: block;
+  box-sizing: border-box;
+}
+
+footer {
+  min-height: 100px;
+  width: 100%;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #a59c9a;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+#right,
+#left {
+  width: 50%;
+}
+#right {
+  text-align: center;
+}
+#right img {
+  padding: 1rem 2rem 0 2rem;
+  position: relative;
+  height: 350px;
+}
+
+#header {
+  width: 100%;
+  height: 36rem;
+  /* background-image: ; */
+  content: url(../images/header.jpg);
+  margin-top: 5rem;
+}
+#empty {
+  margin-top: 5rem;
+}
+
+/* text things */
+.center-text {
+  position: absolute;
+  width: fit-content;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.center-text p {
+  color: white;
+  padding: 0;
+  font-size: 72px;
+  font-family: "Source Code Pro", monospace;
+}
+
+nav a {
+  align-content: center;
+  padding-left: 3rem;
+  text-decoration: none;
+  font-size: 23px;
+  color: whitesmoke;
+}
+
+nav a:hover {
+  color: cyan;
+}
+
+nav a:active {
+  color: greenyellow;
+}
+
+h1,
+h2 {
+  color: rgb(47, 4, 90);
+}
+
+h1,
+h2,
+p,
+small {
+  padding: 0 2rem 0 2rem;
+}
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0 2rem;
+}
+
+p {
+  font-size: 18px;
+}
+
+#validator {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+/* article things */
+article {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.tumb {
+  width: 150px;
+  flex: 0 0 150px;
+  height: auto;
+  padding: 1rem;
+}
+
+.content {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+/* table things */
+table {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+table tr:first-child {
+  background-color: #dedede;
+}
