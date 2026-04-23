@@ -10,17 +10,30 @@ body {
 }
 
 .center {
-    width: 40%; /* Could be anything, but 75% works here. */
-    margin: 0 auto; /* This is what center the content div itself. */
-    /* border: 1px solid red; */
-    text-align: left;
-    margin-top: 10%;
+  width: 40%; /* Could be anything, but 75% works here. */
+  margin: 0 auto; /* This is what center the content div itself. */
+  /* border: 1px solid red; */
+  text-align: left;
+  margin-top: 10%;
 }
 .center * {
-    margin-bottom:1rem;
+  margin-bottom: 1rem;
 }
 
-#ip_error, #submask_error {
-    color: red;
-    font-size: 1rem;
+#ip_error,
+#submask_error {
+  color: red;
+  font-size: 1rem;
+}
+
+#ip_address,
+#ip_submask {
+  width: 7rem;
+}
+
+p {
+  display: inline-block;
+}
+.out{
+  margin-left: 1.5rem;
 }
