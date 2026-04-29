@@ -1,0 +1,16 @@
+zad 1:
+u <section> dodat id="cijan"
+u css: 
+	#cijan {
+		background-color: cyan;
+		padding: 0 20px 0 20px;
+	}
+
+	footer p {
+		text-align: center;
+		color: grey;
+		font-family: Arial;
+		font-size: 8px;
+	}
+
+
