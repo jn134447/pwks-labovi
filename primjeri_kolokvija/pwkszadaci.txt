@@ -1,0 +1,31 @@
+1. zadatak
+ul nazvat klasu crveni i promijeniti boju u crveno i staviti velicinu texta na 10px
+Unutar sectiona promijeniti h2 plavom bojom postaviti na desno i povecati text na 18px
+
+2. Raspon tocaka closure funkcija iskr ne sijecam se
+3. Currying funkcija, unutarnja treba biti arrow, provjeriti udaljenost tocaka ako je udaljenost x1 i y1 veca od x2 i y2 vratiti string Tocka 1 je udaljenija id tocke 2...
+4. Napraviti klasu vektor sa parametrima x i y, ispisati ih s funkcijom ispisi, privatni atribut velicina, napravit get velicina i arrow funkciju za izracunati velicinu
+5. Regularni izrazi 
+Ime mora pocinjat s velikim slovom, trebaju bit barem dva slova, ne smije bit brojeva u imenu
+
+
+
+Prvi zadatak
+Unutar <ul> dodaj id="crvena_lista", napravi da je tekst crven i velixine 10px
+Unutar <section> sadrzaj h2 treba biti arial, plav i centiran
+
+Drugi zadatak
+Napraviti closure funkciju koja prima broj i vraca funkciju koja racuna apsolutnu vrijednost udaljenosti drugog broja od prvog
+
+Treci zad
+Currying funkcija koja prima kvadrant i koordinate tocke, a vraca string "Tocka a,b se nalazi u  X kvadrantu", ali funkcija treba paziti na predznak radi kvadranta
+Funkcija(x)(y)(z)
+
+Zad 4
+Funkcija osoba,ime lrezime, privatna godina rodenja, klasa ili funkcijski kinstruktor, pozdravi, get, set godine rodenja, arrow funkcija u mirovinu, racuna koliko godina ima di mirovine(65god)
+
+Zad 5
+Funkcija vraca true false ako su tablice tocne
+console.log JeHRtab('ST-1234-AE') true
+Console.log(' KAR-6326RC') FALSE
+console.log ('ZG-567-K') TRUE

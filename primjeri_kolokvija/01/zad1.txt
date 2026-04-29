@@ -1,0 +1,21 @@
+add id="zeleni" to section
+
+in css add:
+	#zeleni {
+		background-color: green;
+		// here either padding or margin im unsure
+		padding: 0 10px 0 10px;
+		margin: 0 10px 0 10px;
+	}
+
+
+second part, make <p> that has some class (lets say "center")
+aligned in center, font family Arial, white
+
+in css add:
+	.center{
+		text-align: center
+		font-family: bla bla autocomplete Ariel or use notepad to get name
+		color: white
+	}
+
